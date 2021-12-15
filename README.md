@@ -30,7 +30,7 @@ PS C:\> doctl kubernetes cluster create do-k8s-chlng
 Notice: Cluster is provisioning, waiting for cluster to be running
 ........................................................................
 Notice: Cluster created, fetching credentials
-Notice: Adding cluster credentials to kubeconfig file found in "C:\\Users\\JaganSekaran(ASG)/.kube/config"
+Notice: Adding cluster credentials to kubeconfig file found in "C:\\Users\\Jagan/.kube/config"
 Notice: Setting current-context to do-nyc1-do-k8s-chlng
 ID                                      Name            Region    Version        Auto Upgrade    Status     Node Pools
 66004701-3294-4599-b2eb-811f391efead    do-k8s-chlng    nyc1      1.21.5-do.0    false           running    do-k8s-chlng-default-pool

@@ -68,7 +68,7 @@ helm show values bitnami/harbor > harbor-values.yaml
 
 open `harbor-values.yaml` in a editor
 
-change the extername URL value to `externalURL: https://hub.jagan-sekaran.me` 
+change the exterlname URL value to `externalURL: https://hub.jagan-sekaran.me` 
 
 set admin password `harborAdminPassword: "<YOUR PASSWORD>"` and commaonName `commonName: 'hub.jagan-sekaran.me'`
 
@@ -106,7 +106,7 @@ APP VERSION: 2.4.0
   echo Password: $(kubectl get secret --namespace harbor harbor-core-envvars -o jsonpath="{.data.HARBOR_ADMIN_PASSWORD}" | base64 --decode)
 ```
 
-Check pods status - (eveything is running now)
+Check pods status - (everything is running now)
 
 ```PS
 PS C:\LAB\harbor> kubectl get pod -n harbor
@@ -150,7 +150,7 @@ use the external IP to login to Harbor
 
 ![Harbor Login](images/Harbor_1_login.png)
 
-Create a new project and make it public, so pullinmg image doesn't need authentication.
+Create a new project and make it public, so pulling image doesn't need authentication.
 
 ![Create new project](images/Harbor_2_NewProject.png)
 
@@ -232,4 +232,4 @@ NAME                                READY   STATUS    RESTARTS   AGE
 httpd-deployment-6559f66ffd-4pqlm   1/1     Running   0          9m58s
 ```
 
-We created our Kubernetes intenal container registry (Harbor) and pushed our local image to container registry. Finally our K8s deployment was able to pull the image from Harbor and spinup a pod successfully.
+We created our Kubernetes internal container registry (Harbor) and pushed our local image to container registry. Finally our K8s deployment was able to pull the image from Harbor and spin-up a pod successfully.

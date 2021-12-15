@@ -1,16 +1,7 @@
 # DigitalOcean Kubernetes Challenge
 This repo is for [DigitalOcean Kubernetes Challenge](https://www.digitalocean.com/community/pages/kubernetes-challenge)
 
-## How to Participate
-- [x] Pick one challenge from the list below - [New to kubernetes](#choose-your-challenge)
-- [x] Create a GitHub or GitLab repo for your project - [DO-K8s-Challenge](https://github.com/JAG-010/DO-K8s-Challenge)
-- [x] Fill out the code challenge form to get DigitalOcean credits for your project
-- [x] Join the #kubernetes-challenge channel in the DigitalOcean Deploy Discord
-- [x] Complete your challenge
-- [x] Write about what you’ve built and share it on a blog or in your project readme
-- [ ] Make a pull request against the Kubernetes Challenge Github Repo with information about your project 
-- [ ] Let us know you’ve completed your challenge by filling out this form 
-- [ ] Upon successfully completing these steps, participants will receive the following prizes (each of which expire after one year after the date of receipt):
+I choose **Deploy an internal container registry**
 
 ### Choose your Challenge
 New to Kubernetes? Try one of these challenges. You’ll get $60 in DigitalOcean credits for your project. 
